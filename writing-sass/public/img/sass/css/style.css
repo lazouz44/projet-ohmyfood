@@ -1,0 +1,329 @@
+
+@font-face {
+    font-family: 'Montserrat-Regular';
+    src: url('../font/Montserrat-Regular-webfont.woff');
+}
+
+@font-face {
+    font-family: 'kalam-regular';
+    src: url('../font/kalam-regular-webfont.woff');
+}
+
+@font-face {
+    font-family: 'sourceserifpro-regular';
+    src: url('../font/sourceserifpro-regular-webfont.woff');
+}
+
+@font-face {
+    font-family: 'kaushanscript-regular';
+    src: url('../font/kaushanscript-regular-webfont.woff');
+}
+
+@font-face {
+    font-family: 'kurale-regular';
+    src: url('../font/kurale-regular-webfont.woff');
+}
+
+@font-face {
+    font-family: 'dancingscript-regular';
+    src: url('../font/dancingscript-regular-webfont.woff');
+}
+
+/*elements principaux accueil*/
+
+body {
+    margin: auto;
+}
+
+
+.header {
+    font-family: 'Montserrat-Regular';
+    background-color: #579c87;
+}
+
+.container {
+    text-align: center;
+    padding-bottom: 40px;
+    margin: auto;
+}
+
+section {
+    width: 280px;
+    height: 350px;
+    margin: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: 0 0 20px #bbba
+}
+
+/*aside*/
+aside {
+    background-color: #579c87; /*vert*/
+    font-family: 'Montserrat-Regular';
+    width: 250px;
+    border-radius: 10px 10px;
+    margin: auto;
+    display: flex;
+}
+
+.prochainement {
+    color: #fdcb46; /*jaune*/
+    font-size: 1.3em;
+    padding-left: 20px;
+}
+/*//aside*/
+
+
+header h1 {
+    color: #fdcb46; /*jaune*/
+    text-align: center;
+    font-size: 3em;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: 'Montserrat-Regular';
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/*footer*/
+footer {
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    bottom: 0;
+    margin-bottom: 0px;
+    border-top: 1px solid #a1c181;
+    background-color: #569c87;
+    padding: 1.5rem; /*vert*/
+}
+
+    footer a {
+        color: #fdcb46; /*jaune*/
+        font-family: 'Montserrat-Regular';
+        font-size: 1.3em;
+        font-weight: bold;
+    }
+
+
+
+.contactinfo {
+    background-color: #579c87; /*vert*/
+    width: 100%;
+}
+
+/*//footer*/
+
+
+
+/*menu1*/
+.menu1 {
+    background-color: #fcdfdb; /*framboise*/
+    font-family: 'kalam-regular';
+}
+
+    .menu1 a {
+        color: black;
+    }
+
+.iconm1 {
+    font-size: 2em;
+    background: linear-gradient(to right,#ea6f6f 0%,#e29c4a 90%);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.titre_enbas span {
+    margin: auto 15px auto 0px;
+    width: 35px;
+}
+
+.font1 {
+    font-size: 2em;
+}
+
+.nomMenu1 {
+    font-family:;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    font-size: 1.4em;
+}
+
+/*menu2*/
+.menu2 {
+    background-color: #fff5fe; /* framboise clair*/
+    color: #c77412; /* orange*/
+    font-family: 'sourceserifpro-regular';
+}
+
+    .menu2 a {
+        color: #c77412;
+        background-color: #fff5fe; /*orange*/
+    }
+
+.nomMenu2 {
+    font-family: 'kurale-regular';
+    margin-top: 100px;
+    margin-bottom: 50px;
+    background-image: linear-gradient(to right,#c77412 0%,#9c4bf5 70%);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 1.4em;
+}
+
+.NomMenu2 {
+    font-family: 'kurale-regular';
+    margin-top: 100px;
+    margin-bottom: 60px;
+    background-image: linear-gradient(to right,#c77412 30%,#9c4bf5 70%);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 2.5em;
+}
+
+.menus1et2 {
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+
+/*menu3*/
+.menu3 {
+    background-color: #f9f9f9; /*gris tres clair*/
+    color: #2b91f8; /*bleu*/
+    font-family: 'kalam-regular';
+}
+
+    .menu3 a {
+        color: #2b91f8; /* bleu*/
+    }
+
+.nomMenu3 {
+    font-family: 'dancingscript-regular';
+    margin-top: 100px;
+    margin-bottom: 50px;
+    background-image: linear-gradient(to right,#0f4377 30%,#77b1ea 70%);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 1.4em;
+}
+
+.NomMenu3 {
+    font-family: 'dancingscript-regular';
+    margin-top: 100px;
+    margin-bottom: 60px;
+    background-image: linear-gradient(to right,#0f4377 30%,#77b1ea 50%,#91d5e6 20%);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 2.5em;
+}
+
+/*menu4*/
+.menu4 {
+    background-color: #fdfffd; /*blanc*/
+    color: #72bf56; /* vertc*/
+    font-family: 'kalam-regular';
+}
+
+.nomMenu4 {
+    font-family: 'kaushanscript-regular';
+    margin-top: 100px;
+    margin-bottom: 50px;
+    background-image: linear-gradient(to right,#4d8c36 30%,#b1ec9c 70%);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 1.4em;
+}
+
+.NomMenu4 {
+    font-family: 'kaushanscript-regular';
+    margin-top: 100px;
+    margin-bottom: 60px;
+    background-image: linear-gradient(to right,#4d8c36 30%,#b1ec9c 70%);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 2.5em;
+}
+
+.menu4 a {
+    color: #72bf56; /*vertc*/
+}
+
+.menus3et4 {
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+
+/*css page */
+
+
+.titre {
+    text-align: center;
+    font-size: 1.3em;
+}
+
+
+/*css page2*/
+.bloccouleur1 {
+    color: #a56799;
+}
+
+.bloccouleur2 {
+    color: #6e4ccc;
+}
+
+
+
+/*mise en page*/
+.ensemblecarte {
+    text-align: center;
+    margin: 30px 100px 30px 100px;
+}
+
+.plat {
+    display: flex;
+    justify-content: space-between;
+}
+
+.carte1 {
+    background-color: #fcdfdb;
+    padding: 10px 150px 10px 150px;
+    box-shadow: 1px 3px 11px 7px #e6d7d4;
+    font-family: 'kalam-regular';
+}
+
+.carte2 {
+    background-color: #fff5fe;
+    box-shadow: 1px 3px 11px 7px #e6d7d4;
+    padding: 10px 150px 10px 150px;
+    font-family: 'sourceserifpro-regular';
+    color: #c77412;
+}
+
+.carte3 {
+    background-color: #f9f9f9;
+    padding: 10px 150px 10px 150px;
+    box-shadow: 1px 3px 11px 7px #e6d7d4;
+    font-family: 'kalam-regular';
+}
+
+.carte4 {
+    background-color: #fdfffd;
+    padding: 10px 150px 10px 150px;
+    box-shadow: 1px 3px 11px 7px #e6d7d4;
+    font-family: 'kalam-regular';
+}
+
+.titre_enbas {
+    display: flex;
+    justify-content: center;
+}
+
+.leprix1 {
+    font-weight: bold;
+}

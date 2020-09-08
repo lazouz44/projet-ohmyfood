@@ -1,0 +1,14 @@
+aside {
+    background-color: $background-headasid; /*vert*/
+    font-family: 'Montserrat-Regular';
+    width: 250px;
+    border-radius: 10px 10px;
+    margin: auto;
+    display: flex;
+}
+
+.prochainement {
+    color: $ecriturejaune; /*jaune*/
+    font-size: 1.3em;
+    padding-left: 20px;
+}

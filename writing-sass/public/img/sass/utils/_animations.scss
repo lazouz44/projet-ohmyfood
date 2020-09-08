@@ -1,0 +1,127 @@
+.effetzoom {
+    opacity: 0;
+    transform: scale(1);
+    transition: transform 400ms ease-in-out;
+
+    &:hover {
+        transform: scale(1.5);
+        opacity: 1;
+    }
+}
+
+
+
+
+
+
+
+*/pour le trait*/
+
+
+@keyframes animation {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 250px;
+    }
+}
+
+.trait {
+    top:150px;
+    left:150px; 
+    color: red;
+    position: absolute;
+    animation: anim 2sec 400ms infinite;
+}
+
+
+
+
+/*pour les petits points*/
+
+@keyframes suspension{
+
+    0% {
+        transform: scale(0)
+    }
+
+    100% {
+        transform: scale(1)
+    }
+
+
+
+}
+
+
+
+.prochainement
+animation-duration: 2s
+animation-timing-function: ease-in-out
+animation-delay: 0s
+animation-iteration-count: infinite
+animation-direction: normal
+animation-fill-mode: none
+animation-play-state: running
+animation-name: suspension
+
+
+
+/*pour l'effet wiggle*/
+
+footer a:hover {
+    -webkit-animation: shake 0.5s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-duration: 10s;
+
+
+    @-webkit-keyframes wiggle {
+        0% {
+            -webkit-transform: skewX(9deg);
+        }
+
+        10% {
+            -webkit-transform: skewX(-8deg);
+        }
+
+        20% {
+            -webkit-transform: skewX(7deg);
+        }
+
+        30% {
+            -webkit-transform: skewX(-6deg);
+        }
+
+        40% {
+            -webkit-transform: skewX(5deg);
+        }
+
+        50% {
+            -webkit-transform: skewX(-4deg);
+        }
+
+        60% {
+            -webkit-transform: skewX(3deg);
+        }
+
+        70% {
+            -webkit-transform: skewX(-2deg);
+        }
+
+        80% {
+            -webkit-transform: skewX(1deg);
+        }
+
+        90% {
+            -webkit-transform: skewX(0deg);
+        }
+
+        100% {
+            -webkit-transform: skewX(0deg);
+        }
+    }
+
+       }
+    
