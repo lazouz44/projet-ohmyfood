@@ -21,52 +21,52 @@
     text-decoration: none;
     transition: background-size 0.5s;
 
-    &:hover {
-        background-size: 100% 100%;
-    }
-    /* trait page 1 */
-    .trait1 {
+    &.trait1 {
         color: #3c1218;
         background: linear-gradient(to top, #f04a5e 0%, #f04a5e 10%, transparent 10.01%) no-repeat left bottom/0 100%;
     }
-    /* trait page 2 */
-    .trait2 {
+
+    &.trait2 {
         color: #c77412;
         background: linear-gradient(to top, #c77412 0%, #c77412 10%, transparent 10.01%) no-repeat left bottom/0 100%;
     }
-    /* trait 2 */
-    .trait3 {
+
+    &.trait3 {
         color: #a56799;
         background: linear-gradient(to top, #a56799 0%, #a56799 10%, transparent 10.01%) no-repeat left bottom/0 100%;
     }
-    /*trait 3 */
-    .trait4 {
+
+    &.trait4 {
         color: #6e4ccc;
         background: linear-gradient(to top, #6e4ccc 0%, #6e4ccc 10%, transparent 10.01%) no-repeat left bottom/0 100%;
     }
-    /* trait page 3 */
-    .trait5 {
+
+    &.trait5 {
         color: #000000;
         background: linear-gradient(to top, #0431df 0%, #0431df 10%, transparent 10.01%) no-repeat left bottom/0 100%;
     }
 
-    .trait6 {
+    &.trait6 {
         color: #000000;
         background: linear-gradient(to top, #518cf0 0%, #518cf0 10%, transparent 10.01%) no-repeat left bottom/0 100%;
     }
 
-    .trait7 {
+    &.trait7 {
         color: #000000;
         background: linear-gradient(to top, #0887fb 0%, #0887fb 10%, transparent 10.01%) no-repeat left bottom/0 100%;
     }
-    /* trait page 4 */
-    .trait8 {
+
+    &.trait8 {
         color: #000000;
         background: linear-gradient(to top, #bfff7e 0%, #bfff7e 10%, transparent 10.01%) no-repeat left bottom/0 100%;
     }
+
+    &:hover {
+        background-size: 100% 100%;
+    }
+
+}
     /*effets petits points*/
-
-
     @keyframes suspension {
 
         0% {
@@ -81,7 +81,7 @@
             opacity: 0;
         }
     }
-}
+
 $asidheadfootpolicecolor: #fdcb46;
 .aside__petitpoint {
     color: $asidheadfootpolicecolor; 

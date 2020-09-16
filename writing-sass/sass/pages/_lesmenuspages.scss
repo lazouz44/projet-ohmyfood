@@ -27,6 +27,10 @@
         font-family: 'devonshire-regular';
         font-size: 2.5em;
     }
+
+    & .leprix1 {
+        font-weight: bold;
+    }
 }
 
 
@@ -43,7 +47,7 @@
 
     &__soustitre {
         font-family: 'kurale-regular';
-        margin-top: 100px;
+        margin-top: 80px;
         margin-bottom: 60px;
         background-image: linear-gradient(to right,#c77412 30%,#9c4bf5 70%);
         -webkit-background-clip: text;
@@ -64,7 +68,7 @@
 
     &__soustitre {
         font-family: 'dancingscript-regular';
-        margin-top: 100px;
+        margin-top: 80px;
         margin-bottom: 60px;
         background-image: linear-gradient(to right,#0f4377 30%,#77b1ea 50%,#91d5e6 20%);
         -webkit-background-clip: text;
@@ -87,7 +91,7 @@
 
         &__soustitre {
             font-family: 'kaushanscript-regular';
-            margin-top: 100px;
+            margin-top: 80px;
             margin-bottom: 60px;
             background-image: linear-gradient(to right,#4d8c36 30%,#b1ec9c 70%);
             -webkit-background-clip: text;

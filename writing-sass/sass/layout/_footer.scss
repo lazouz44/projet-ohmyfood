@@ -29,14 +29,14 @@ $breakpoints: ( tablette : 1024px,phone : 720px );
             }
         }
 
-        footer a {
-            color: $asidheadfootpolicecolor;
-            font-family: 'Montserrat-Regular';
-            font-size: 1.3em;
-            font-weight: bold;
+  footer a {
+     color: $asidheadfootpolicecolor;
+     font-family: 'Montserrat-Regular';
+     font-size: 1.3em;
+     font-weight: bold;
         }
 
-        .contactinfo {
-            background-color: $background-headasid;
-            width: 100%;
+  .contactinfo {
+      background-color: $background-headasid;
+      width: 100%;
         }
