@@ -1,0 +1,124 @@
+
+/*effet zoom*/
+
+.effetzoom {
+    opacity: 1;
+    transform: scale(0.8);
+    transition: transform 300ms ease-in-out;
+
+    &:hover {
+        transform: scale(1);
+        opacity: 0.3;
+    }
+}
+
+
+/*effet trait*/
+
+
+.trait {
+    display: inline;
+    text-decoration: none;
+    transition: background-size 0.5s;
+
+    &:hover {
+        background-size: 100% 100%;
+    }
+    /* trait page 1 */
+    .trait1 {
+        color: #3c1218;
+        background: linear-gradient(to top, #f04a5e 0%, #f04a5e 10%, transparent 10.01%) no-repeat left bottom/0 100%;
+    }
+    /* trait page 2 */
+    .trait2 {
+        color: #c77412;
+        background: linear-gradient(to top, #c77412 0%, #c77412 10%, transparent 10.01%) no-repeat left bottom/0 100%;
+    }
+    /* trait 2 */
+    .trait3 {
+        color: #a56799;
+        background: linear-gradient(to top, #a56799 0%, #a56799 10%, transparent 10.01%) no-repeat left bottom/0 100%;
+    }
+    /*trait 3 */
+    .trait4 {
+        color: #6e4ccc;
+        background: linear-gradient(to top, #6e4ccc 0%, #6e4ccc 10%, transparent 10.01%) no-repeat left bottom/0 100%;
+    }
+    /* trait page 3 */
+    .trait5 {
+        color: #000000;
+        background: linear-gradient(to top, #0431df 0%, #0431df 10%, transparent 10.01%) no-repeat left bottom/0 100%;
+    }
+
+    .trait6 {
+        color: #000000;
+        background: linear-gradient(to top, #518cf0 0%, #518cf0 10%, transparent 10.01%) no-repeat left bottom/0 100%;
+    }
+
+    .trait7 {
+        color: #000000;
+        background: linear-gradient(to top, #0887fb 0%, #0887fb 10%, transparent 10.01%) no-repeat left bottom/0 100%;
+    }
+    /* trait page 4 */
+    .trait8 {
+        color: #000000;
+        background: linear-gradient(to top, #bfff7e 0%, #bfff7e 10%, transparent 10.01%) no-repeat left bottom/0 100%;
+    }
+    /*effets petits points*/
+
+
+    @keyframes suspension {
+
+        0% {
+            opacity: 0;
+        }
+
+        50% {
+            opacity: 1;
+        }
+
+        100% {
+            opacity: 0;
+        }
+    }
+}
+$asidheadfootpolicecolor: #fdcb46;
+.aside__petitpoint {
+    color: $asidheadfootpolicecolor; 
+    font-size: 1.2em;
+    padding-left: 20px;
+
+    & span {
+        display: inline-block;
+        color: $asidheadfootpolicecolor;
+        font-size: 1.2em;
+        padding-left: 5px;
+        animation: suspension 2s infinite ease-in-out;
+    }
+}
+
+.petitpoint.point2 {
+    animation-delay: 0.4s;
+}
+
+.petitpoint.point3 {
+    animation-delay: 0.8s;
+}
+    
+
+    /*pour l'effet wiggle*/
+
+@keyframes wiggle {
+    25% {
+        transform: translateX(5%);
+    }
+
+    75% {
+        transform: translateX(-5%);
+    }
+}
+
+
+footer a:hover {
+    animation: wiggle 150ms infinite ease-in-out;
+}

@@ -1,0 +1,137 @@
+
+
+$hauteurmenu: 350px;
+$largeurmenu: 280px;
+$breakpoints: (phone: 720px);
+@mixin phone-only {@media screen and (max-width: map-get($breakpoints, phone)) {@content;}}
+
+@mixin box-shadow {
+    box-shadow: 0 0 20px #bbba;
+}
+
+@mixin shadow {
+    box-shadow: 1px 3px 11px 7px #e6d7d4;
+}
+
+@mixin paddingcarte {
+    padding: 10px 150px 10px 150px;
+}
+
+
+.menus {
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+
+    @include phone-only {
+     flex-direction: column;
+     margin: auto;
+    }
+    & h2{
+        font-size: 2.3em; 
+    }
+    & h3{
+        font-size: 1.9em;
+    }
+  }
+
+
+.menu1 {
+    background-color: #fcdfdb; /*framboise*/
+    font-family: 'kalam-regular';
+    width: $largeurmenu;
+    height: $hauteurmenu;
+    margin: 20px;
+    @include box-shadow;
+
+    & a {
+        color: black;
+    }
+
+    &__nom {
+        font-family: 'devonshire-regular';
+        margin-top: 60px;
+        margin-bottom: 50px;
+        font-size: 1.9em;
+        font-weight: lighter;
+    }
+}
+
+    .menu2 {
+        background-color: #fff5fe; /* framboise clair*/
+        color: #c77412; /* orange*/
+        font-family: 'sourceserifpro-regular';
+        width: $largeurmenu;
+        height: $hauteurmenu;
+        margin: 20px;
+        @include box-shadow;
+
+        & a {
+        color: #c77412;
+        }
+
+        &__nom {
+            font-family: 'kurale-regular';
+            margin-top: 90px;
+            margin-bottom: 50px;
+            background-image: linear-gradient(to right,#c77412 0%,#9c4bf5 70%);
+            -webkit-background-clip: text;
+            color: transparent;
+            font-size: 1.9em;
+        }
+    }
+
+.menu h2 {
+    font-size: 2.3em;
+}
+
+     .menu3 {
+         background-color: #f9f9f9; /*gris tres clair*/
+         color: #2b91f8; /*bleu*/
+         font-family: 'kalam-regular';
+         width: $largeurmenu;
+         height: $hauteurmenu;
+         margin: 20px;
+         @include box-shadow;
+
+         & a {
+        color: #2b91f8;
+         }
+
+         &__nom {
+             font-family: 'dancingscript-regular';
+             margin-top: 130px;
+             margin-bottom: 50px;
+             background-image: linear-gradient(to right,#0f4377 30%,#77b1ea 70%);
+            -webkit-background-clip: text;
+             color: transparent;
+             font-size: 1.9em;
+          }
+     }
+  .menu h3{
+      font-size: 1.9em;
+  }  
+
+     .menu4 {
+         background-color: #fdfffd; /*blanc*/
+         color: #72bf56; /* vertc*/
+         font-family: 'kalam-regular';
+         width: $largeurmenu;
+         height: $hauteurmenu;
+         margin: 20px;
+         @include box-shadow;
+
+         & a {
+        color: #72bf56;
+         }
+
+         &__nom {
+        font-family: 'kaushanscript-regular';
+        margin-top: 130px;
+        margin-bottom: 50px;
+        background-image: linear-gradient(to right,#4d8c36 30%,#b1ec9c 70%);
+        -webkit-background-clip: text;
+        color: transparent;
+        font-size: 1.9em
+     }
+}

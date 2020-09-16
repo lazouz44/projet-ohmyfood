@@ -1,0 +1,101 @@
+
+@mixin shadow {
+    box-shadow: 1px 3px 11px 7px #e6d7d4;
+}
+
+@mixin paddingcarte {
+    padding: 10px 150px 10px 150px;
+}
+
+
+.titre_enbas {
+    display: flex;
+    justify-content: center;
+}
+
+.carte1 {
+    background-color: #fcdfdb;
+    @include paddingcarte;
+    @include shadow;
+    font-family: 'kalam-regular';
+
+    & h2 {
+        font-weight: 400;
+    }
+
+    & .font1 {
+        font-family: 'devonshire-regular';
+        font-size: 2.5em;
+    }
+}
+
+
+.carte2 {
+    background-color: #fff5fe;
+    @include shadow;
+    @include paddingcarte;
+    font-family: 'sourceserifpro-regular';
+    color: #c77412;
+
+    & h2 {
+        font-weight: 400;
+    }
+
+    &__soustitre {
+        font-family: 'kurale-regular';
+        margin-top: 100px;
+        margin-bottom: 60px;
+        background-image: linear-gradient(to right,#c77412 30%,#9c4bf5 70%);
+        -webkit-background-clip: text;
+        color: transparent;
+        font-size: 2.5em;
+    }
+}
+
+.carte3 {
+    background-color: #f9f9f9;
+    @include paddingcarte;
+    @include shadow;
+    font-family: 'kalam-regular';
+
+    & h2 {
+        font-weight: 400;
+    }
+
+    &__soustitre {
+        font-family: 'dancingscript-regular';
+        margin-top: 100px;
+        margin-bottom: 60px;
+        background-image: linear-gradient(to right,#0f4377 30%,#77b1ea 50%,#91d5e6 20%);
+        -webkit-background-clip: text;
+        color: transparent;
+        font-size: 2.5em;
+    }
+}
+
+
+
+    .carte4 {
+        background-color: #fdfffd;
+        @include paddingcarte;
+        @include shadow;
+        font-family: 'kalam-regular';
+
+        & h2 {
+            font-weight: 400;
+        }
+
+        &__soustitre {
+            font-family: 'kaushanscript-regular';
+            margin-top: 100px;
+            margin-bottom: 60px;
+            background-image: linear-gradient(to right,#4d8c36 30%,#b1ec9c 70%);
+            -webkit-background-clip: text;
+            color: transparent;
+            font-size: 2.5em;
+        } 
+ }
+            
+
+
+

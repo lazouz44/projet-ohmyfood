@@ -1,0 +1,16 @@
+$background-headasid: #579c87;
+$asidheadfootpolicecolor: #fdcb46;
+
+.aside {
+    background-color: $background-headasid;
+    font-family: 'Montserrat-Regular';
+    width: 250px;
+    border-radius: 10px 10px;
+    margin: auto;
+    display: flex;
+    &__petitpoint {
+        color: $asidheadfootpolicecolor;
+        font-size: 1.2em;
+        padding-left: 20px;
+    }
+}

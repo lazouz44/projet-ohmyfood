@@ -4,65 +4,69 @@
     <script src="https://kit.fontawesome.com/c66dd85e87.js" crossorigin="anonymous"></script>
     <title>ohmyfood</title>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="font/SERIF.css" />
     <link rel="stylesheet" href="font/stylesheetKALAM.css" />
+    <link rel="stylesheet" media="only screen and (max-width: 1024px) and (min-width: 720px)" href="css/tablette.css" />
+    <link rel="stylesheet" media="only screen and (max-width: 720px)" href="css/phone.css" />
     <link rel="shortcut icon" href="images/favicon.png" />
 </head>
 <body>
 
+
     <header class="header">
         <a href="index.html" title="Accueil">
-            <h1>ohmyfood</h1>
+            <h1 class="header__h1">ohmyfood</h1>
         </a>
 
     </header>
 
     <main class="container">
-        <div class="menus1et2">
+        <div class="menus">
             <section class="menu1">
                 <a href="page1menu1.html" title="La note enchantée" class="effetzoom">
-                    <h3 class="nomMenu1">
+                    <h3 class="menu1__nom">
                         <span class="iconm1">
                             <i class="fas fa-music">
-                        </i></span><br />
+                            </i>
+                        </span><br />
                         La note enchantée
                     </h3>
-                    <h2 class="lemenu1">Menu</h2>
+                    <h2 class="menu">Menu</h2>
                 </a>
             </section>
             <section class="menu2">
                 <a href="page2menu2.html" title="Le chic à la française" class="effetzoom">
-                    <h3 class="nomMenu2">Le chic à la française</h3>
-                    <h2 class="lemenu2">Menu</h2>
+                    <h3 class="menu2__nom">Le chic à la française</h3>
+                    <h2 class="menu">Menu</h2>
                 </a>
             </section>
         </div>
 
-        <div class="menus3et4">
+        <div class="menus">
             <section class="menu3">
                 <a href="page3menu3.html" title="Le délice des papilles" class="effetzoom">
-                    <h3 class="nomMenu3">Le délice des papilles</h3>
-                    <h2 class="lemenu3">Menu</h2>
+                    <h3 class="menu3__nom">Le délice des papilles</h3>
+                    <h2 class="menu">Menu</h2>
                 </a>
             </section>
             <section class="menu4">
                 <a href="page4menu4.html" title="La palette du goût" class="effetzoom">
-                    <h3 class="nomMenu4">La palette du goût</h3>
-                    <h2 class="lemenu4">Menu</h2>
+                    <h3 class="menu4__nom">La palette du goût</h3>
+                    <h2 class="menu">Menu</h2>
                 </a>
             </section>
         </div>
 
-        <aside>
+        <aside class="aside">
 
-            <h2 class="prochainement">Prochainement  <span class="point1">.</span><span class="point2">.</span><span class="point3">.</span></h2>
+            <h2 class="aside__petitpoint">Prochainement  <span class="point1">.</span><span class="point2">.</span><span class="point3">.</span></h2>
         </aside>
 
     </main>
     <footer>
-        <a href="mentions_legales.html" title="Mentions légales" target="_blank">Mentions légales</a>
+        <a href="mentions-legales.html" title="Mentions légales" target="_blank">Mentions légales</a>
         <a href="mailto:elsadefursac@gmail.com" title="Contactez-nous !">Contactez-nous</a>
     </footer>
 </body>
