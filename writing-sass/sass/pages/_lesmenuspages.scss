@@ -99,7 +99,21 @@
             font-size: 2.5em;
         } 
  }
-            
+.stylegauche1 {
+    display: inline-block;
+    height: 8px;
+    width: 220px;
+    margin: auto auto auto 0px;
+}
 
+.styledroite1 {
+    display: inline-block;
+    height: 8px;
+    width: 220px;
+    margin: auto 0px auto auto;
+}
 
+.titreplat1{
+    display:flex;
+}
 
