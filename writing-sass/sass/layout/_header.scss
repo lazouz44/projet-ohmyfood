@@ -1,12 +1,12 @@
 $background-headasid: #579c87;
 $asidheadfootpolicecolor: #fdcb46;
+
 .header {
     font-family: 'Montserrat-Regular';
     background-color: $background-headasid;
     height: 90px;
-
     &__h1 {
-        color: $asidheadfootpolicecolor; /*jaune*/
+        color: $asidheadfootpolicecolor; 
         text-align: center;
         font-size: 3em;
         font-family: 'montserrat-regular';

@@ -14,7 +14,6 @@ $breakpoints: ( tablette : 1135px,phone : 720px );
             border-top: 1px solid #a1c181;
             background-color: $backgroundfooter;
             padding: 1.5rem;
-
             @include tablette-only {
                 justify-content: space-around;
                 display: flex;
@@ -22,22 +21,21 @@ $breakpoints: ( tablette : 1135px,phone : 720px );
                 margin: 0px;
                 font-size:0.9em;
             }
-
             @include phone-only {
                 font-size: 0.8em;
                 padding-bottom: 20px;
                 justify-content: space-around;
             }
-        }
+   }
 
   footer a {
      color: $asidheadfootpolicecolor;
      font-family: 'Montserrat-Regular';
      font-size: 1.3em;
      font-weight: bold;
-        }
+   }
 
   .contactinfo {
       background-color: $background-headasid;
       width: 100%;
-        }
+   }
