@@ -13,11 +13,25 @@
     justify-content: center;
 }
 
+$breakpoints: ( tablette : 1135px,phone : 720px,/*large : 1165px*/ );
+@mixin tablette-only { @media screen and (max-width: map-get($breakpoints, tablette)) {@content;}}
+@mixin phone-only {@media screen and (max-width: map-get($breakpoints, phone)) {@content;}}
+
+
+
 .carte1 {
     background-color: #fcdfdb;
+    font-family: 'kalam-regular';
     @include paddingcarte;
     @include shadow;
-    font-family: 'kalam-regular';
+    @include tablette-only {
+        padding:15px;
+    }
+     @include phone-only{
+        padding:7px;
+    }
+
+   
 
     & h2 {
         font-weight: 400;
@@ -26,6 +40,9 @@
     & .font1 {
         font-family: 'devonshire-regular';
         font-size: 2.5em;
+        @include phone-only{
+            font-size: 2em;
+        }
     }
 
     & .leprix1 {
@@ -34,48 +51,48 @@
 }
 
 
-.carte2 {
-    background-color: #fff5fe;
-    @include shadow;
-    @include paddingcarte;
-    font-family: 'sourceserifpro-regular';
-    color: #c77412;
+    .carte2 {
+        background-color: #fff5fe;
+        @include shadow;
+        @include paddingcarte;
+        font-family: 'sourceserifpro-regular';
+        color: #c77412;
 
-    & h2 {
-        font-weight: 400;
+        & h2 {
+            font-weight: 400;
+        }
+
+        &__soustitre {
+            font-family: 'kurale-regular';
+            margin-top: 80px;
+            margin-bottom: 60px;
+            background-image: linear-gradient(to right,#c77412 30%,#9c4bf5 70%);
+            -webkit-background-clip: text;
+            color: transparent;
+            font-size: 2.5em;
+        }
     }
 
-    &__soustitre {
-        font-family: 'kurale-regular';
-        margin-top: 80px;
-        margin-bottom: 60px;
-        background-image: linear-gradient(to right,#c77412 30%,#9c4bf5 70%);
-        -webkit-background-clip: text;
-        color: transparent;
-        font-size: 2.5em;
-    }
-}
+    .carte3 {
+        background-color: #f9f9f9;
+        @include paddingcarte;
+        @include shadow;
+        font-family: 'kalam-regular';
 
-.carte3 {
-    background-color: #f9f9f9;
-    @include paddingcarte;
-    @include shadow;
-    font-family: 'kalam-regular';
+        & h2 {
+            font-weight: 400;
+        }
 
-    & h2 {
-        font-weight: 400;
+        &__soustitre {
+            font-family: 'dancingscript-regular';
+            margin-top: 80px;
+            margin-bottom: 60px;
+            background-image: linear-gradient(to right,#0f4377 30%,#77b1ea 50%,#91d5e6 20%);
+            -webkit-background-clip: text;
+            color: transparent;
+            font-size: 2.5em;
+        }
     }
-
-    &__soustitre {
-        font-family: 'dancingscript-regular';
-        margin-top: 80px;
-        margin-bottom: 60px;
-        background-image: linear-gradient(to right,#0f4377 30%,#77b1ea 50%,#91d5e6 20%);
-        -webkit-background-clip: text;
-        color: transparent;
-        font-size: 2.5em;
-    }
-}
 
 
 
@@ -97,23 +114,63 @@
             -webkit-background-clip: text;
             color: transparent;
             font-size: 2.5em;
-        } 
- }
+        }
+    }
+
+    .carte5 {
+        background-color: #fff5fe;
+        color: #3c1218;
+        padding: 20px;
+        text-align: left;
+}
+
+$breakpoints: ( tablette : 1135px,phone : 720px,);
+
+@mixin tablette-only { @media screen and (max-width: map-get($breakpoints, tablette)) {@content;}}
+@mixin phone-only { @media screen and (max-width: map-get($breakpoints, phone)) { @content; }}
+
+
 .stylegauche1 {
     display: inline-block;
     height: 8px;
     width: 220px;
     margin: auto auto auto 0px;
+    /*@include large {
+        width: 130px;
+        height: 6px;
+    }*/
+    @include tablette-only {
+        width: 120px;
+        height: 5px;
+    }
+    @include phone-only {
+        width: 80px;
+        height: 4px;
+    }
 }
+
 
 .styledroite1 {
     display: inline-block;
     height: 8px;
     width: 220px;
     margin: auto 0px auto auto;
+    /*@include large {
+        width: 130px;
+        height: 6px;
+    }*/
+    @include tablette-only {
+        width: 120px;
+        height: 5px;
+    }
+    @include phone-only {
+        width: 80px;
+        height: 4px;
+    }
 }
+    
 
-.titreplat1{
-    display:flex;
-}
+    .titreplat1 {
+        display: flex;
+    }
 

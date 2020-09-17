@@ -1,7 +1,7 @@
 $asidheadfootpolicecolor: #fdcb46;
 $backgroundfooter: #569c87;
 $background-headasid: #579c87;
-$breakpoints: ( tablette : 1024px,phone : 720px );
+$breakpoints: ( tablette : 1135px,phone : 720px );
 @mixin tablette-only {@media screen and (max-width: map-get($breakpoints, tablette)) {@content;}}
 @mixin phone-only {@media screen and (max-width: map-get($breakpoints, phone)) {@content;}}
         
@@ -20,10 +20,11 @@ $breakpoints: ( tablette : 1024px,phone : 720px );
                 display: flex;
                 bottom: 0;
                 margin: 0px;
+                font-size:0.9em;
             }
 
             @include phone-only {
-                font-size: 0.9em;
+                font-size: 0.8em;
                 padding-bottom: 20px;
                 justify-content: space-around;
             }

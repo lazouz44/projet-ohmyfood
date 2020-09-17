@@ -1,16 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\css",
     "\\public",
-    "\\public\\img",
     "\\sass",
-    "\\sass\\base",
-    "\\sass\\components",
-    "\\sass\\layout",
-    "\\sass\\pages",
-    "\\sass\\utils"
+    "\\sass\\pages"
   ],
-  "SelectedNode": "\\page2menu2.html",
+  "SelectedNode": "\\index.html",
   "PreviewInSolutionExplorer": false
 }

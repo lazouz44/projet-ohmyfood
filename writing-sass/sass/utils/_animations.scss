@@ -84,9 +84,17 @@
 
 $asidheadfootpolicecolor: #fdcb46;
 .aside__petitpoint {
-    color: $asidheadfootpolicecolor; 
+    color: $asidheadfootpolicecolor;
     font-size: 1.2em;
     padding-left: 20px;
+
+    & .point2 {
+        animation-delay: 0.4s;
+    }
+
+    & .point3 {
+        animation-delay: 0.8s;
+    }
 
     & span {
         display: inline-block;
@@ -97,17 +105,12 @@ $asidheadfootpolicecolor: #fdcb46;
     }
 }
 
-.petitpoint.point2 {
-    animation-delay: 0.4s;
-}
 
-.petitpoint.point3 {
-    animation-delay: 0.8s;
-}
-    
+
+
 
     /*pour l'effet wiggle*/
-
+     
 @keyframes wiggle {
     25% {
         transform: translateX(5%);

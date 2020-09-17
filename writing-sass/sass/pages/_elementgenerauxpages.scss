@@ -13,11 +13,21 @@
 .ensemblecarte {
     text-align: center;
     margin: 30px 100px 30px 100px;
+    @include phone-only{
+        margin: 30px 40px 30px 40px;
+    }
 }
+
+
+$breakpoints: ( tablette : 1135px,phone : 720px,);
+@mixin phone-only { @media screen and (max-width: map-get($breakpoints, phone)) {@content;}}
 
 .plat {
     display: flex;
     justify-content: space-between;
+    @include phone-only{
+        flex-direction:column;
+    }
 }
 
 .bloccouleur1 {
