@@ -116,7 +116,12 @@ $breakpoints: ( tablette : 1135px,phone : 720px,);
     color: #3c1218;
     padding: 20px;
     text-align: left;
+    & a{
+        text-align:left;
+    }
 }
+
+
 
 $breakpoints: ( tablette : 1135px,phone : 720px,);
 
