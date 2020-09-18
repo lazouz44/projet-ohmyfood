@@ -40,6 +40,12 @@ $breakpoints: ( tablette : 1135px,phone : 720px,);
     @include paddingcarte;
     font-family: 'sourceserifpro-regular';
     color: #c77412;
+    @include tablette-only {
+        padding: 15px;
+    }
+    @include phone-only {
+        padding: 7px;
+    }
     & h2 {
         font-weight: 400;
     }
@@ -59,6 +65,12 @@ $breakpoints: ( tablette : 1135px,phone : 720px,);
     @include paddingcarte;
     @include shadow;
     font-family: 'kalam-regular';
+    @include tablette-only {
+        padding: 15px;
+    }
+    @include phone-only {
+        padding: 7px;
+    }
     & h2 {
         font-weight: 400;
     }
@@ -78,6 +90,12 @@ $breakpoints: ( tablette : 1135px,phone : 720px,);
     @include paddingcarte;
     @include shadow;
     font-family: 'kalam-regular';
+    @include tablette-only {
+        padding: 15px;
+    }
+    @include phone-only {
+        padding: 7px;
+    }
     & h2 {
         font-weight: 400;
     }
@@ -92,29 +110,40 @@ $breakpoints: ( tablette : 1135px,phone : 720px,);
     }
 }
 
-   
+
 .carte5 {
-        background-color: #fff5fe;
-        color: #3c1218;
-        padding: 20px;
-        text-align: left;
+    background-color: #fff5fe;
+    color: #3c1218;
+    padding: 20px;
+    text-align: left;
 }
 
 $breakpoints: ( tablette : 1135px,phone : 720px,);
 
-@mixin tablette-only { @media screen and (max-width: map-get($breakpoints, tablette)) {@content;}}
-@mixin phone-only { @media screen and (max-width: map-get($breakpoints, phone)) { @content; }}
+@mixin tablette-only {
+    @media screen and (max-width: map-get($breakpoints, tablette)) {
+        @content;
+    }
+}
+
+@mixin phone-only {
+    @media screen and (max-width: map-get($breakpoints, phone)) {
+        @content;
+    }
+}
 
 
-.stylegauche1 {
+.stylegauche {
     display: inline-block;
     height: 8px;
     width: 220px;
     margin: auto auto auto 0px;
+
     @include tablette-only {
         width: 120px;
         height: 5px;
     }
+
     @include phone-only {
         width: 80px;
         height: 4px;
@@ -122,27 +151,24 @@ $breakpoints: ( tablette : 1135px,phone : 720px,);
 }
 
 
-.styledroite1 {
+.styledroite {
     display: inline-block;
     height: 8px;
     width: 220px;
     margin: auto 0px auto auto;
+
     @include tablette-only {
         width: 120px;
         height: 5px;
     }
+
     @include phone-only {
         width: 80px;
         height: 4px;
     }
 }
+
+
     
 
-.titreplat1 {
-        display: flex;
-    }
-
-.titre_enbas {
-    display: flex;
-    justify-content: center;
-}
+ 

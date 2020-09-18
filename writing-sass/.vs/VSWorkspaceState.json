@@ -2,9 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\public",
-    "\\sass",
-    "\\sass\\pages"
+    "\\public\\img",
+    "\\sass"
   ],
-  "SelectedNode": "\\index.html",
+  "SelectedNode": "\\public\\img",
   "PreviewInSolutionExplorer": false
 }

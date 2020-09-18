@@ -3,6 +3,11 @@
     width: 35px;
 }
 
+.titre_enbas{
+    display: flex;
+    justify-content: center;
+}
+
 .titre {
     text-align: center;
     font-size: 1.1em;
@@ -14,6 +19,19 @@
     @include phone-only{
         margin: 30px 40px 30px 40px;
     }
+}
+
+.titreplat1 {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    margin: auto;
+}
+
+.titreplat2 {
+    display: flex;
+    justify-content: center;
+    margin: auto;
 }
 
 
