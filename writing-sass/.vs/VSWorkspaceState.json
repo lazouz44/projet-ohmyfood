@@ -1,10 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\public",
-    "\\public\\img",
     "\\sass"
   ],
-  "SelectedNode": "\\public\\img",
+  "SelectedNode": "\\sass\\utils",
   "PreviewInSolutionExplorer": false
 }

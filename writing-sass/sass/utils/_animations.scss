@@ -12,6 +12,62 @@
 }
 
 
+    /*effets petits points*/
+
+    @keyframes suspension {
+
+    0% {
+         opacity: 0;
+     }
+
+    50% {
+         opacity: 1;
+    }
+
+    100% {
+         opacity: 0;
+    }
+}
+
+$asidheadfootpolicecolor: #fdcb46;
+.aside__petitpoint {
+    color: $asidheadfootpolicecolor;
+    font-size: 1.2em;
+    padding-left: 20px;
+    & .point2 {
+        animation-delay: 0.4s;
+    }
+    & .point3 {
+        animation-delay: 0.8s;
+    }
+    & span {
+        display: inline-block;
+        color: $asidheadfootpolicecolor;
+        font-size: 1.2em;
+        padding-left: 5px;
+        animation: suspension 2s infinite ease-in-out;
+    }
+}
+
+
+   /*pour l'effet wiggle*/
+     
+@keyframes wiggle {
+    25% {
+        transform: translateX(5%);
+    }
+
+    75% {
+        transform: translateX(-5%);
+    }
+}
+
+
+footer a:hover {
+    animation: wiggle 150ms infinite ease-in-out;
+}
+
+
 /*effet trait*/
 
 
@@ -62,58 +118,4 @@
     &:hover {
         background-size: 100% 100%;
     }
-
-}
-    /*effets petits points*/
-
-    @keyframes suspension {
-
-    0% {
-         opacity: 0;
-     }
-
-    50% {
-         opacity: 1;
-    }
-
-    100% {
-         opacity: 0;
-    }
-}
-
-$asidheadfootpolicecolor: #fdcb46;
-.aside__petitpoint {
-    color: $asidheadfootpolicecolor;
-    font-size: 1.2em;
-    padding-left: 20px;
-    & .point2 {
-        animation-delay: 0.4s;
-    }
-    & .point3 {
-        animation-delay: 0.8s;
-    }
-    & span {
-        display: inline-block;
-        color: $asidheadfootpolicecolor;
-        font-size: 1.2em;
-        padding-left: 5px;
-        animation: suspension 2s infinite ease-in-out;
-    }
-}
-
-   /*pour l'effet wiggle*/
-     
-@keyframes wiggle {
-    25% {
-        transform: translateX(5%);
-    }
-
-    75% {
-        transform: translateX(-5%);
-    }
-}
-
-
-footer a:hover {
-    animation: wiggle 150ms infinite ease-in-out;
 }
