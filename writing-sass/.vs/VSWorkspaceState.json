@@ -2,8 +2,12 @@
   "ExpandedNodes": [
     "",
     "\\public",
-    "\\sass"
+    "\\public\\font",
+    "\\sass",
+    "\\sass\\base",
+    "\\sass\\layout",
+    "\\sass\\pages"
   ],
-  "SelectedNode": "\\css",
+  "SelectedNode": "\\sass\\main.scss",
   "PreviewInSolutionExplorer": false
 }

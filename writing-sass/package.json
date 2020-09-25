@@ -4,15 +4,17 @@
   "description": "ohmyfood",
   "main": "index.html",
   "scripts": {
-    "sass": "sass --watch ./sass/main.scss:./css/style.css --style compressed"
+    "sass": "sass --watch ./sass/main.scss:./css/style.css --style compressed",
+    "prefix": "\"postcss ./css/style.css --use autoprefixer -d ./css/prefixed/"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/lazouz44/p3vs/maintainable-css-with-sass.git"
-    
+
   },
   "author": "zaz",
   "license": "ISC",
+  "browserslist": "last 4 versions",
   "bugs": {
     "url": "https://github.com/lazouz44/p3vs/maintainable-css-with-sass/issues"
   },

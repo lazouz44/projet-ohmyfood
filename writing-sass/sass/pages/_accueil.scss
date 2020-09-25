@@ -1,5 +1,5 @@
-$hauteurmenu: 350px;
-$largeurmenu: 280px;
+$hauteurmenu: 360px;
+$largeurmenu: 290px;
 $breakpoints: (phone: 720px);
 @mixin phone-only {@media screen and (max-width: map-get($breakpoints, phone)) {@content;}}
 @mixin box-shadow {box-shadow: 0 0 20px #bbba;}
@@ -47,7 +47,7 @@ $breakpoints: (phone: 720px);
     background-color: #fff5fe; 
     color: #c77412; 
     font-family: 'sourceserifpro-regular';
-   /* width: $largeurmenu;*/
+    width: $largeurmenu;
     height: $hauteurmenu;
     margin: 20px;
     @include box-shadow;
