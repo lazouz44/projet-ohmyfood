@@ -31,8 +31,6 @@
 
 $asidheadfootpolicecolor: #fdcb46;
 .aside__petitpoint {
-    /*color: $asidheadfootpolicecolor;*/
-    font-size: 1.2em;
     padding-left: 20px;
     & .point2 {
         animation-delay: 0.4s;
@@ -76,46 +74,38 @@ footer a:hover {
     transition: background-size 0.5s;
 
     &.trait1 {
-       /* color: #3c1218;*/
-        background: linear-gradient(to top, #f04a5e 0%, #f04a5e 10%, transparent 10.01%) no-repeat left bottom/0 100%;
+         background: linear-gradient(to top, #f04a5e 0%, #f04a5e 10%, transparent 10.01%) no-repeat left bottom/0 100%;
     }
 
     &.trait2 {
-        /*color: #c77412;*/
-        background: linear-gradient(to top, #c77412 0%, #c77412 10%, transparent 10.01%) no-repeat left bottom/0 100%;
+         background: linear-gradient(to top, #c77412 0%, #c77412 10%, transparent 10.01%) no-repeat left bottom/0 100%;
     }
 
     &.trait3 {
-        /*color: #a56799;*/
-        background: linear-gradient(to top, #a56799 0%, #a56799 10%, transparent 10.01%) no-repeat left bottom/0 100%;
+         background: linear-gradient(to top, #a56799 0%, #a56799 10%, transparent 10.01%) no-repeat left bottom/0 100%;
     }
 
     &.trait4 {
-        /*color: #6e4ccc;*/
-        background: linear-gradient(to top, #6e4ccc 0%, #6e4ccc 10%, transparent 10.01%) no-repeat left bottom/0 100%;
+         background: linear-gradient(to top, #6e4ccc 0%, #6e4ccc 10%, transparent 10.01%) no-repeat left bottom/0 100%;
     }
 
     &.trait5 {
-        /*color: #000000;*/
-        background: linear-gradient(to top, #0431df 0%, #0431df 10%, transparent 10.01%) no-repeat left bottom/0 100%;
+         background: linear-gradient(to top, #0431df 0%, #0431df 10%, transparent 10.01%) no-repeat left bottom/0 100%;
     }
 
     &.trait6 {
-        /*color: #000000;*/
-        background: linear-gradient(to top, #518cf0 0%, #518cf0 10%, transparent 10.01%) no-repeat left bottom/0 100%;
+         background: linear-gradient(to top, #518cf0 0%, #518cf0 10%, transparent 10.01%) no-repeat left bottom/0 100%;
     }
 
     &.trait7 {
-        /*color: #000000;*/
-        background: linear-gradient(to top, #0887fb 0%, #0887fb 10%, transparent 10.01%) no-repeat left bottom/0 100%;
+         background: linear-gradient(to top, #0887fb 0%, #0887fb 10%, transparent 10.01%) no-repeat left bottom/0 100%;
     }
 
     &.trait8 {
-       /*color: #000000;*/
-        background: linear-gradient(to top, #bfff7e 0%, #bfff7e 10%, transparent 10.01%) no-repeat left bottom/0 100%;
+         background: linear-gradient(to top, #bfff7e 0%, #bfff7e 10%, transparent 10.01%) no-repeat left bottom/0 100%;
     }
 
     &:hover {
-        background-size: 100% 100%;
+         background-size: 100% 100%;
     }
 }

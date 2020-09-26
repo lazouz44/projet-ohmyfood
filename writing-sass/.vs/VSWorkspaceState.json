@@ -1,13 +1,11 @@
 {
   "ExpandedNodes": [
     "",
-    "\\public",
-    "\\public\\font",
+    "\\css",
     "\\sass",
-    "\\sass\\base",
-    "\\sass\\layout",
-    "\\sass\\pages"
+    "\\sass\\components",
+    "\\sass\\utils"
   ],
-  "SelectedNode": "\\sass\\main.scss",
+  "SelectedNode": "\\css\\style.css.map",
   "PreviewInSolutionExplorer": false
 }
