@@ -1,11 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\css",
-    "\\sass",
-    "\\sass\\components",
-    "\\sass\\utils"
+    "\\sass"
   ],
-  "SelectedNode": "\\css\\style.css.map",
+  "SelectedNode": "\\package.json",
   "PreviewInSolutionExplorer": false
 }
